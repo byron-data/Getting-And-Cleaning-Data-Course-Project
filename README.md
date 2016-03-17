@@ -10,6 +10,10 @@ The purpose of this project is to demonstrate your ability to collect, work with
 
 * __run_analysis.R__: is a file containing the R programming code to perform the data analysis.
 
-Before running the code you will need to decide where you want your working directory to be then save `run_analysis.R` to this directory. Open an R console of your choice, set the working directory to where you saved 'run_analysis.R` using the setwd() function and then execute the script by the command source("run_analysis.R").
+Before running the code you will need to decide where you want your working directory to be then save `run_analysis.R` to this directory.
+
+You will also need a copy of the raw data, download https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to your working directory and then unzip it.
+
+Finally, open an R console of your choice, set the working directory to where you saved 'run_analysis.R` using the setwd() function and then execute the script by the command source("run_analysis.R").
 
 Note that executing this script will create a "tidy_data.txt" file (in your working directory) containing the tidy data set.
