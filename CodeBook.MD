@@ -17,7 +17,6 @@ Data Set file information is included at the bottom of this guide.
 
 ## Transformations or work performed to clean up the data
 
-* The data set (zip file) is downloaded and unpacked.
 * The x data is read separately from the test set and train set and then combined to make one set of x data, the same is done for y data and subject data.
 * Which measurements are on the mean and standard deviation for each measurement are determined by reading the descriptive names from "features.txt" and then choosing only the corresponding columns from the x data.
 * The activity labels are read from "activity_labels.txt" and this descriptive activity name is used to replace the activity number in the y data.
