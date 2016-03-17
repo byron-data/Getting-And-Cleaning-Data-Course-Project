@@ -2,13 +2,6 @@
 # 1. Merges the training and the test sets to create one data set.
 ###
 
-# Download the data
-download.file(url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", 
-              destfile = "dataset.zip")
-			  
-# Unpack the zip file
-unzip(zipfile="dataset.zip")
-
 # Set variable with path for top level data folder
 folder <- "UCI HAR Dataset"
 			  
